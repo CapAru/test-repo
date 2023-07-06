@@ -73,5 +73,7 @@ for i in range(3):
         l+=wn
 
 l.reverse()
+first=l[0].capitalize()
+l[0]=first
 for i in l:
     print(i, end=" ")
